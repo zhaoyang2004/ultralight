@@ -4,45 +4,22 @@ title: About
 permalink: /about/
 ---
 
-![shot](https://user-images.githubusercontent.com/8435623/34344912-0665d490-ea2e-11e7-9bd8-919a6ced2a40.png)
+# 个人简介
 
-Ultralight is super-lightweight responsive super Jekyll theme.
-It can be hosted on GitHub Pages/IPFS.
+Hi,我系凯风自南，高中一年级学生，目前就读于我市某不知名中学。
 
-[demo1](https://kotet.github.io/ultralight/)
+没有什么技术的一枚脚本小子，对网络技术有着浓厚的兴趣，并连任五年电教委员，帮助其他同学总能让我收获许多乐趣.
 
-### Output size:
+## 近期目标
 
-- [minima@affcd93](https://github.com/jekyll/minima/tree/affcd93be22e960afd2be08e6891d99b31bcf920): 256K
-- **[ultralight@9bffabb](https://github.com/kotet/ultralight/tree/9bffabb42cc64c0be563d5c3d3977ab6bb5761b9): 40K**
+─=≡Σ((( つ??ω??)つ 本科!本科!冲冲冲！
 
-### Pagespeed:
+## 联系方式
 
-![screenshot from 2017-12-26 10-17-46](https://user-images.githubusercontent.com/8435623/34344205-7f316c3e-ea26-11e7-8fcb-1184ee929c8d.png)
+E-mail:zhaoyang2004@yeah.net
 
-## Usage
+## 友情链接
 
-### GitHub Pages
+[B4博客](https://blog.bu40.com/)
 
-```console
-$ git clone https://github.com/kotet/ultralight.git && cd ultralight
-$ git remote set-url origin https://github.com/yourname/yourname.github.io.git
-$ git push origin master
-```
 
-### IPFS
-
-```console
-$ git clone https://github.com/kotet/ultralight.git && cd ultralight
-$ bundle && bundle exec jekyll build
-$ ipfs add -r _site/
-```
-
-#### Internal link
-
-On IPFS, all internal links must be relative links.
-You can use `relative` template like this:
-
-```
-{% raw %}[link]({% include relative %}{% post_url your-article-filename %}){% endraw %}
-```
